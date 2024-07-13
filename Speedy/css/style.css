@@ -1,0 +1,190 @@
+
+*{
+    margin: 0px;
+}
+.banner {
+    background-color: #000000da;
+    padding: 60px;
+}
+header{
+    font-family: 'Calibri';
+}
+.btns{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+.btns a{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(1, 155, 16);
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+.btns a:hover{
+    background-color: rgb(17, 239, 39);
+    opacity: 100%;
+    color:rgb(0, 0, 0);
+}
+.logo img{
+    float: left;
+    width: 160px;
+    height: auto;
+
+}
+.fast img{
+    float: left;
+    font-family: 'Calibri';
+    width: 80px;
+    height: auto;
+
+}
+.name{
+    font-family: 'Calibri';
+    font-style: italic;
+    color: #06ae01;
+    font-size: 25px;
+    background-color: #d4d3d3;
+    width: 100%;
+    padding: 50px 70px;
+    text-align: end;
+}
+.name a{
+    position: relative;
+	background-color: #0441ab;
+	color: #ffffff;
+	transition: 1s;
+	box-shadow: -1px 0 10px #103045;
+	border-radius: 5px;
+	width: 100px;
+    padding: 10px 20px;
+    font-family: 'Calibri';
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.name a:hover{
+    background-color: aqua;
+}
+
+.del img{
+    float: right;
+    width: 80px;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+/*-----------------------------------Slideshow-------------------------------------------------------------*/
+
+/* CSS Document */
+* {box-sizing: border-box;}
+
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+   
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*-----------------------------------footer-------------------------------------------------*/
+
+footer {
+ 
+    background-color: #000000da;
+    padding: 20px;
+    
+}
+  
+.foo img{ 
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+  
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #9e9a9a;
+    text-align:right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.newlogo img{
+    float:right;
+    width: 300px;
+    height: auto;
+
+}
+.newfoo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#e1ec0dda;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+.newfoo a{
+	color: rgb(255, 255, 255);
+    text-align: left; 
+    text-decoration:underline; 
+    font-size: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newfoo a:hover{
+    transition: 1s;
+    color: #70e137;
+}
+
+.pay img{
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+}

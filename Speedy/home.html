@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home-Speedy Tire PRO</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="showSlides()">
+    <header>
+        <div class="banner">
+
+            <div class="logo">
+                <img src="logo/logono bg.png">
+            </div>
+            <div class="fast">
+                    <img src="logo/fast.png">
+                    <h4 style="color: #a1a1a1;">speedytirepro@gmail.com</h4>
+                    <h4 style="color: #a1a1a1;">Call now on: 025-2225644</h4>
+                    <h4 style="color: #a1a1a1;">No.52, UC Quaters, New Town Anuradhapura</h4>
+                    
+
+                    
+                </div>
+                <div class="btns">
+                    <a href="home.html" style="background-color: rgb(255, 255, 255); color: black;">Home</a>
+                    <a href="store.php">Store</a>
+                    <a href="login.php">Sign In</a>
+                    <a href="chat.php" style="background-color: blue; ">Chat With Us</a>
+                    <a href="about.html" style="background-color: rgb(194, 95, 181); font-style: italic;">About Us</a>
+                    <a href="logout.php" style="background-color: rgb(212, 1, 1); color: rgb(255, 255, 255); padding: 5px;">Log Out</a>
+                    </div>        
+        </div>
+        <br><br><br>
+        <div class="name">
+            <h1 style="text-align: center;">Welcome to Official Website of<br>
+              Speedy Tire PRO!</h1><br>
+              <h5 style="margin-left: 5px; text-align: left; color: #424242">At <mark> Speedy Tire PRO </mark> online shop, we are passionate about
+                 providing high-quality tires for all types of vehicles. This is your one-stop destination<br> for high-quality tires.</h5>
+              <a href="login.php">Create your Account NOW!</a>
+        </div> 
+
+        <div class="row" style="margin-left: 20px;">
+          <div class="column">
+            <img src="logo/fast1.png" alt="fast" style="width:70%; margin-top: 50px;">
+          </div>
+          <div class="column">
+            <img src="logo/trust.png" alt="trust" style="width:70%">
+          </div>
+          <div class="column">
+            <img src="logo/best.png" alt="best" style="width:70%; margin-top: 30px;">
+          </div>
+        </div>
+
+        
+
+          <script>
+          
+          let slideIndex = 0;
+          showSlides();
+          function showSlides()
+          {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++)
+          {
+           slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length)
+          {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 2000); 
+          }
+          
+          </script>
+          <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="Slideshow/3.jpg" width="100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="Slideshow/4.jpg" width="100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="Slideshow/dd.jpg" width="100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="Slideshow/ma.jpg" width="100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="Slideshow/id.webp" width="100%">
+                  </div>
+          </div>
+        </div>
+    </header>  
+<!-----------------------------------footer--------------------------------------------->
+
+<footer>
+  <div class="foo">
+    <p style="margin-right: 545PX; font-size: 20px; font-style: italic;">Follow us on   
+      <img src="logo/in.png" style="margin-left: 12px;">
+      <img src="logo/wa.png" style="margin-left: 12px;">
+      <img src="logo/fb.png" style="margin-left: 14px;"></p>
+    <div class="newlogo">
+      <img src="logo/logono bg.png">
+  </div>
+
+  </div>
+  
+  
+  <div class="newfoo"> <h1>Need any help ? <br> HOTLINE : +94778880817  </h1>
+  <a href="chat.php">Contact US</a>
+  <div class="pay"><p style="margin-bottom: 10px;"> We accept
+    <img src="logo/master-card.png" style="margin-left: 12px;">
+    <img src="logo/visa.png" style="margin-left: 12px;">
+    <img src="logo/american-express.png" style="margin-left: 14px;"></p>
+  </div>
+  <p>&copy; 2023 K.G.S.D Abeyrathne (SA22527974). All rights reserved.</p>
+  </div>
+ 
+</footer>
+
+</body>
+</html>

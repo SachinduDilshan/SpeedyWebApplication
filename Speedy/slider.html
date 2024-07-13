@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="SliderStyles.css">
+</head>
+
+<body onload="showSlides()"> 
+
+<script>
+
+let slideIndex = 0;
+showSlides();
+function showSlides()
+{
+let i;
+let slides = document.getElementsByClassName("mySlides");
+for (i = 0; i < slides.length; i++)
+{
+ slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length)
+{slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 2000); //Change image every 2 seconds
+}
+
+</script>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<img src="1.jpg" width="100%">
+<div class="text"> Caption text</div>
+</div>
+
+<div class="mySlides fade">
+<img src="2.jpg" width="100%">
+<div class="text"> Caption text</div>
+</div>
+
+<div class="mySlides fade">
+<img src="3.jpg" width="100%">
+<div class="text"> Caption text</div>
+</div>
+
+<div class="mySlides fade">
+<img src="4.jpg" width="100%">
+<div class="text"> Caption text</div>
+</div>
+
+
+</body>
+</html>

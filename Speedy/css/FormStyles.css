@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+}
+.banner {
+    background-color: #000000da;
+    padding: 60px;
+}
+header{
+    font-family: 'Calibri';
+}
+.btns{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+.btns a{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(1, 155, 16);
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+.btns a:hover{
+    background-color: rgb(17, 239, 39);
+    opacity: 100%;
+    color:rgb(0, 0, 0);
+}
+.logo img{
+    float: left;
+    width: 160px;
+    height: auto;
+
+}
+.fast img{
+    float: left;
+    font-family: 'Calibri';
+    width: 80px;
+    height: auto;
+}
+
+.name{
+    font-family: 'Calibri';
+    font-style: italic;
+    color: #fffdfd;
+    font-size: 20px;
+    text-align: center;
+    background-color: #0a9a05da;
+    width: 40%;
+}
+
+/*-----------------------------------------------*/
+
+
+.container{
+    font-family: 'Calibri';
+    background-color: #d4d1d1;
+    font-weight: bold;
+    height: 60vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    left:auto;
+    right: auto;
+
+}
+
+
+input[type=text] ,input[type=password]{
+    font-family: 'Calibri';
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+	background-color:#FADFE0;
+}
+
+
+input[type=submit]{
+    background-color:rgb(24, 100, 14);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.Acc a{
+    background-color:rgb(10, 9, 9);
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+
+
+input[type=submit]:hover {
+    background-color:rgb(23, 216, 39);
+}
+
+.Acc a:hover {
+    background-color:rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+}
+
+select
+{
+	   width:100%;
+	   padding:8px;
+	   font-family: 'Calibri';
+	   font-size:16px;
+	   background-color:#c2eec0;
+}
+
+/*-----------------------------------footer-------------------------------------------------*/
+
+footer {
+ 
+    background-color: #000000da;
+    padding: 20px;
+    
+}
+  
+.foo img{ 
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+  
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #9e9a9a;
+    text-align:right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.newlogo img{
+    float:right;
+    width: 300px;
+    height: auto;
+
+}
+.newfoo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#e1ec0dda;
+    margin-left: 40px;
+    font-style: italic;
+}
+
+.newfoo a{
+	color: rgb(255, 255, 255);
+    text-align: left; 
+    text-decoration:underline; 
+    font-size: 20px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newfoo a:hover{
+    transition: 1s;
+    color: #70e137;
+}
+
+.pay img{
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+}
+
